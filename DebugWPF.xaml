@@ -1,0 +1,16 @@
+﻿<Window x:Class="LicenseXQO.DebugWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LicenseXQO"
+        mc:Ignorable="d"
+        Title="XQO License System" Height="145" Width="310">
+    <Grid>
+        <Label x:Name="labelServerAddr" Content="Server address: " HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelLicensePath" Content="License path: " HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelConnectStatus" Content="Connect status: " HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelHWID" Content="HWID: " HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
